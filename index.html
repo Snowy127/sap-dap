@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio Web</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="px-4 py-4 bg-white">
+        <div class="">
+            <ul class="grid grid-cols-3 justify-items-center">
+                <li>
+                    <a href="index.html" class="font-bold">Home</a>
+                </li>
+                <li>
+                    <a href="nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="w-full h-[90vh] relative">
+        <div class="absolute top-0 left-0 w-full h-full -z-10">
+            <img src="./images/coral-reef.jpeg" alt="landing" class="w-full h-full object-cover">
+        </div>
+        <div class="relative w-full h-full z-10 bg-[#1C2833cc] p-4 text-left flex flex-col justify-center items-center">
+            <h1 class="text-5xl text-white">Magical <i class="text-teal-400">reefs</i></h1>
+            <p class="text-white/80 mt-4">Explora la belleza submarina: Tu destino para descubrir el fascinante mundo de los corales</p>
+        </div>
+    </section>
+    <div class="bg-white py-2 px-4">
+        <nav class="flex">
+            <ol class="list-none flex text-gray-600">
+                <li class="flex items-center">
+                    <a href="index.html" class="text-teal-500">Inicio (Landing)</a>                    
+                </li>
+            </ol>
+        </nav>
+    </div>
+
+    <section class="p-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <!-- Indicador 1 -->
+        <div class="bg-white p-6 rounded-md shadow-md">
+            <h2 class="text-xl font-semibold mb-2 text-teal-400">Visitantes Mensuales</h2>
+            <p class="text-gray-600">Más de <strong>100,000</strong> visitantes exploran nuestro contenido cada mes.</p>
+        </div>
+    
+        <!-- Indicador 2 -->
+        <div class="bg-blue-200 p-6 rounded-md shadow-md">
+            <h2 class="text-xl font-semibold mb-2 text-blue-600">Artículos Educativos</h2>
+            <p class="text-gray-600">Ofrecemos <strong>50+</strong> artículos educativos sobre la biología y ecología de los corales.</p>
+        </div>
+    
+        <!-- Indicador 3 -->
+        <div class="bg-green-300 p-6 rounded-md shadow-md">
+            <h2 class="text-xl font-semibold mb-2 text-green-800">Proyectos de Conservación</h2>
+            <p class="text-gray-600">Colaboramos en <strong>5+</strong> proyectos para preservar y proteger los arrecifes de coral en todo el mundo.</p>
+        </div>
+    </section>
+
+
+    <section class="p-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <!-- Indicadores (Diseño anterior) -->
+    
+        <!-- Nueva sección de Reseñas -->
+        <div class="col-span-2 md:col-span-1">
+            <h2 class="text-2xl font-semibold mb-4">Reseñas</h2>
+        
+            <!-- Reseña 1 -->
+            <div class="bg-white p-4 rounded-md shadow-md mb-4">
+                <p class="text-gray-600">"¡Increíble contenido sobre corales! Aprendí mucho y me inspiró a cuidar más nuestro océano."</p>
+                <p class="text-gray-800 font-bold">- Usuario123</p>
+            </div>
+        
+            <!-- Reseña 2 -->
+            <div class="bg-white p-4 rounded-md shadow-md mb-4">
+                <p class="text-gray-600">"Me encanta la pasión por la conservación marina. Las colaboraciones y proyectos son impactantes."</p>
+                <p class="text-gray-800 font-bold">- AmanteDelMar</p>
+            </div>
+        
+            <!-- Reseña 3 -->
+            <div class="bg-white p-4 rounded-md shadow-md">
+                <p class="text-gray-600">"El sitio web es hermoso y fácil de navegar. ¡Excelente recurso para amantes del océano!"</p>
+                <p class="text-gray-800 font-bold">- ExploradorSubmarino</p>
+            </div>
+        </div>
+    </section>
+
+      <!-- Nueva sección de Beneficios -->
+    <div class="p-6 col-span-2 md:col-span-1">
+        <h2 class="text-2xl font-semibold mb-4">Beneficios</h2>
+  
+        <!-- Beneficio 1 -->
+        <div class="bg-white p-4 rounded-md shadow-md mb-4 flex items-center">
+          <i class="fas fa-globe-americas text-teal-400 text-3xl mr-4"></i>
+          <div>
+            <p class="text-gray-800">Explora los arrecifes de coral de todo el mundo.</p>
+          </div>
+        </div>
+  
+        <!-- Beneficio 2 -->
+        <div class="bg-white p-4 rounded-md shadow-md mb-4 flex items-center">
+          <i class="fas fa-graduation-cap text-teal-400 text-3xl mr-4"></i>
+          <div>
+            <p class="text-gray-800">Aprende sobre la biología y ecología de los corales.</p>
+          </div>
+        </div>
+  
+        <!-- Beneficio 3 -->
+        <div class="bg-white p-4 rounded-md shadow-md flex items-center">
+          <i class="fas fa-hands-helping text-teal-400 text-3xl mr-4"></i>
+          <div>
+            <p class="text-gray-800">Colabora en proyectos de conservación marina.</p>
+          </div>
+        </div>
+    </div>
+    <!-- </section> -->
+</body>
+</html>

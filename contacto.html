@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="px-4 py-4 bg-white">
+        <div class="">
+            <ul class="grid grid-cols-2 justify-items-center">
+                <!-- <li>
+                    <a href="index.html">Home</a>
+                </li> -->
+                <li>
+                    <a href="nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="contacto.html" class="font-bold">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="bg-white py-2 px-4">
+        <nav class="flex">
+            <ol class="list-none flex text-gray-600">
+                <li class="flex items-center">
+                    <a href="index.html" class="text-teal-500">Inicio</a>
+                    <span class="mx-2">></span>
+                </li>                
+                <li class="flex items-center">
+                    <span class="text-gray-800">Contacto</span>
+                </li>
+            </ol>
+        </nav>
+    </div>
+
+    <section class="p-6 mt-4">
+        <p class="text-lg">¡Nos encantaría escuchar de ti! Si tienes preguntas, comentarios o simplemente quieres compartir tus experiencias relacionadas con los corales, no dudes en ponerte en contacto con nosotros. Estamos aquí para ayudarte y fomentar la comunidad apasionada por los océanos.</p>    
+    </section>
+
+    <section class="p-6">
+        <form class="max-w-md mx-auto">
+    
+        <div class="mb-4">
+            <label for="nombre" class="block text-sm font-semibold text-gray-600">Nombre Completo:</label>
+            <input type="text" id="nombre" name="nombre" class="mt-1 p-2 w-full border rounded-md">
+        </div>
+
+        <div class="mb-4">
+            <label for="correo" class="block text-sm font-semibold text-gray-600">Dirección de Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" class="mt-1 p-2 w-full border rounded-md">
+        </div>
+
+        <div class="mb-4">
+            <label for="telefono" class="block text-sm font-semibold text-gray-600">Número de Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" class="mt-1 p-2 w-full border rounded-md">
+        </div>
+
+        <div class="mb-4">
+            <label for="motivo" class="block text-sm font-semibold text-gray-600">Motivo del Contacto (seleccione una opción):</label>
+            <select id="motivo" name="motivo" class="mt-1 p-2 w-full border rounded-md">
+            <option value="consulta-general">Consulta General</option>
+            <option value="colaboracion">Colaboración</option>
+            <option value="problemas-tecnicos">Problemas Técnicos</option>
+            <option value="otros">Otros</option>
+            </select>
+        </div>
+
+        <div class="mb-4">
+            <label for="mensaje" class="block text-sm font-semibold text-gray-600">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" class="mt-1 p-2 w-full border rounded-md"></textarea>
+        </div>
+
+        <button type="submit" class="bg-teal-400 text-white p-2 rounded-md hover:bg-teal-500">Enviar Mensaje</button>
+
+        </form>
+    </section>
+
+    <hr>
+    <footer class="bg-white grid grid-cols-2 place-items-center p-6">
+        <div>
+            <h2 class="text-xl font-semibold mb-2">Información de Contacto:</h2>
+            <ul class="list-none pl-6">
+            <li><strong>Dirección de Correo Electrónico:</strong> <a href="mailto:TuCorreo@dominio.com">TuCorreo@dominio.com</a></li>
+            <li><strong>Número de Teléfono:</strong> <a href="tel:+XX(XXX)XXX-XXXX">+XX (XXX) XXX-XXXX</a></li>
+            <li><strong>Dirección de la Oficina:</strong> Calle, Ciudad, País</li>
+            </ul>
+        </div>      
+        <div class="mt-4">
+            <h2 class="text-xl font-semibold mb-2">Redes Sociales:</h2>
+            <ul class="list-none pl-6">
+            <li><a target="_blank" href="https://www.facebook.com/?locale=es_LA" class="text-teal-400">Facebook</a></li>
+            <li><a target="_blank" href="https://twitter.com/?lang=es" class="text-teal-400">X</a></li>
+            <li><a target="_blank" href="https://www.instagram.com" class="text-teal-400">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>      
+</body>
+</html>
